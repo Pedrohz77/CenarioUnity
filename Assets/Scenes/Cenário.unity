@@ -132,6 +132,10 @@ GameObject:
   - component: {fileID: 1333511}
   - component: {fileID: 1333510}
   - component: {fileID: 1333509}
+  - component: {fileID: 1333514}
+  - component: {fileID: 1333515}
+  - component: {fileID: 1333516}
+  - component: {fileID: 1333517}
   m_Layer: 0
   m_Name: Soldier-Attack02_0
   m_TagString: Untagged
@@ -318,6 +322,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1333514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fbfe8a42bf29f14a8f5f1d8a7db5640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1333515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98757cae81abd7e4fb3b77dbac35486e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidapersonagem: 0
+--- !u!114 &1333516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c383971f248e3458a3811029b8b2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerup: 0
+--- !u!114 &1333517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVivo: 1
+  powerUp: 0
 --- !u!1 &104855752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,7 +1071,7 @@ Transform:
   m_GameObject: {fileID: 418678606}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.618889, y: 1.09, z: 0}
+  m_LocalPosition: {x: -4.59, y: 1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2790,6 +2846,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1524577961}
   - component: {fileID: 1524577960}
+  - component: {fileID: 1524577964}
+  - component: {fileID: 1524577963}
+  - component: {fileID: 1524577962}
   m_Layer: 0
   m_Name: Layer_0005_5_0 (1)
   m_TagString: Untagged
@@ -2867,6 +2926,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1524577962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524577959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVivo: 0
+  powerUp: 0
+--- !u!114 &1524577963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524577959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVivo: 0
+  powerUp: 0
+--- !u!114 &1524577964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524577959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVivo: 0
+  powerUp: 0
 --- !u!1 &1743360646
 GameObject:
   m_ObjectHideFlags: 0
