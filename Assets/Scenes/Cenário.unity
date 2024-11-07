@@ -136,6 +136,14 @@ GameObject:
   - component: {fileID: 1333515}
   - component: {fileID: 1333516}
   - component: {fileID: 1333517}
+  - component: {fileID: 1333518}
+  - component: {fileID: 1333519}
+  - component: {fileID: 1333520}
+  - component: {fileID: 1333521}
+  - component: {fileID: 1333522}
+  - component: {fileID: 1333523}
+  - component: {fileID: 1333524}
+  - component: {fileID: 1333525}
   m_Layer: 0
   m_Name: Soldier-Attack02_0
   m_TagString: Untagged
@@ -367,13 +375,124 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333508}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerVivo: 1
+  playerVivo: 0
   powerUp: 0
+--- !u!114 &1333518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8d70793f1845f448880510e316b952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaodevida: 1
+--- !u!114 &1333519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a96256eca157fe4e8fecfa5912990c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "Miss\xE3o": 50
+--- !u!114 &1333520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fa08391228e2b47937ec314a408e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mago: 0
+  guerreiro: 0
+--- !u!114 &1333521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e957f8443e0e8e44090c67acef66d508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faces: 0
+--- !u!114 &1333522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c670eb20de19dee4a9f04ab7eab896d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hora: 0
+  dia: 0
+  segundos: 0
+--- !u!114 &1333523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b303b706dbe819f49958d7838a908b74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeA: 0
+  TimeB: 0
+--- !u!114 &1333524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2753b978ccdb240469a0d46a5700cd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item: 2
+--- !u!114 &1333525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333508}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03ad2a3e0b22e844b21e901ae2a5425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Resposta:
+  - "NPC: Ol\xE1, a chuva foi forte neh!!"
+  - "NPC: Ol\xE1, o dia est\xE1 seco"
+  molhado: 0
 --- !u!1 &104855752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,6 +2968,7 @@ GameObject:
   - component: {fileID: 1524577964}
   - component: {fileID: 1524577963}
   - component: {fileID: 1524577962}
+  - component: {fileID: 1524577965}
   m_Layer: 0
   m_Name: Layer_0005_5_0 (1)
   m_TagString: Untagged
@@ -2933,7 +3053,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524577959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
   m_Name: 
@@ -2947,7 +3067,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524577959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
   m_Name: 
@@ -2961,13 +3081,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524577959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39f30562025aad549ae7fcd03bc5da70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerVivo: 0
   powerUp: 0
+--- !u!114 &1524577965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524577959}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03ad2a3e0b22e844b21e901ae2a5425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Resposta:
+  - "NPC: Ol\xE1, a chuva foi forte neh!!"
+  - "NPC: Ol\xE1, o dia est\xE1 seco"
+  molhado: 0
 --- !u!1 &1743360646
 GameObject:
   m_ObjectHideFlags: 0
